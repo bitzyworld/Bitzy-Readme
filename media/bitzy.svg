@@ -1,0 +1,49 @@
+
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 512 512"
+     width="512" height="512">
+
+  <defs>
+    <linearGradient id="bitzy"
+      x1="80" y1="40" x2="430" y2="470"
+      gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#56E4FF"/>
+      <stop offset=".48" stop-color="#168BFF"/>
+      <stop offset="1" stop-color="#6554FF"/>
+    </linearGradient>
+  </defs>
+
+  <path fill="url(#bitzy)" fill-rule="evenodd"
+    d="
+      M105 55
+      Q105 35 128 35
+      H276
+      C385 35 443 86 443 174
+      C443 230 416 267 370 286
+      C431 303 465 350 465 414
+      C465 507 392 477 276 477
+      H128
+      Q105 477 105 454
+      Z
+
+      M195 119
+      V239
+      H275
+      C330 239 354 219 354 179
+      C354 139 328 119 275 119
+      Z
+
+      M195 312
+      V393
+      H283
+      C342 393 374 378 374 350
+      C374 322 343 312 283 312
+      Z
+    "/>
+
+  <path d="M278 245 L238 302 H273
+           L249 350 L318 276 H280 Z"
+        fill="#FFFFFF"
+        opacity=".95"/>
+
+</svg>
